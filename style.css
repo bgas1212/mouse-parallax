@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    min-height: 800vh;
+}
+/* header */
 .upper{
     position: relative;
     width: 100;
@@ -33,22 +37,59 @@
     object-fit: cover;
 }
 
-
-#desc{
-    background-image: url(img/rodrigo-soares-SCvlb1FWeuY-unsplash.jpg);
+/* desc */
+/* #desc{
+    background-color: rgb(88, 45, 174);
     
     text-align: center;
     color: white;
+    
 }
 
 #desc p{
     margin-top: 5vh;
     margin-left: 10rem;
     margin-right: 10rem;
+    
     font-size: 1.2rem;
 }
 
 #desc h2{
-    
+    ;
     font-size: 4em;
+} */
+
+
+.diagonal-box {
+	background-image: linear-gradient(45deg, #6303B1, #ff0099);
+    transform: skewY(-3deg);
+    position: relative;
+    top: -34px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 20rem;
+} 
+.content { 	
+	max-width: 50em;
+    margin: 3rem; 
+    transform: skewY(3deg);
+    position: absolute;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    
 }
+/* :root {
+	--magic-number: 0.09719; /* tan(11°)/2 */
+	--content-width: 100vw;
+	--skew-padding: calc(var(--content-width) * var(--magic-number));
+}
+
+@media screen and (min-width: 42em) {
+	:root {
+		--content-width: 42em;
+	}
+} */
